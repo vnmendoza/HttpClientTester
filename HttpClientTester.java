@@ -36,7 +36,7 @@ public class HttpClientTester
                         {
                             if(entry.getKey().toString().matches("date|content-type|content-length"))
                             {
-                                System.out.println(entry.getKey().toString() + ": " + entry.getValue().toString());    
+                                System.out.println(entry.getKey().toString() + ": " + entry.getValue().get(0));    
                             }
                         }
                     }
