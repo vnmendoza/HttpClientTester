@@ -13,7 +13,6 @@ public class HttpClientTester
     public static void main(final String[] args) throws IOException, URISyntaxException, InterruptedException
         {        
            java.net.http.HttpClient client = HttpClient.newHttpClient();
-           //HttpClient client = HttpClient.newHttpClient();
 
             if (client != null)
             {
